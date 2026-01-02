@@ -9,3 +9,4 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}"}
 
 [config]
 # Add your assessment config here
+num_maps = 3
