@@ -1,0 +1,8 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/gist-cilab/agentx-vlmario-mario-map-judge@sha256:0b22a2113f869d3c47203bc93e1605dfdce30fdf11485184e5806cf07df5cc59",
+    "designer-gemini-2.5-pro": "ghcr.io/gist-cilab/agentx-vlmario-mario-map-designer@sha256:fafaa5c9f439eff690d98e5732bd9bb1926084b8a47bfd5a7ccbfd9a0531403e",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-06T09:18:28Z"
+}
