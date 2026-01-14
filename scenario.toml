@@ -6,7 +6,7 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO", USE_OPEN_ROUTE
 agentbeats_id = "019bbbaf-f3ff-7ff2-903d-e5ba90bdf1d9"
 name = "agent"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", "MODEL" = "gemini-3-flash-preview" }
-
+ 
 [config]
 # Add your assessment config here
 num_maps = 25
