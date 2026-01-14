@@ -9,6 +9,7 @@
       "k": 5,
       "score": 10.0,
       "max_score": 20.0,
+      "created_at": "2026-01-14T08:01:36.123456+00:00"
       "task_rewards": {
         "composition": 6.8,
         "probability": 4.2,
