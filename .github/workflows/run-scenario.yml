@@ -79,6 +79,7 @@ jobs:
           path: |
             logs/
             output/
+            outputs/
             *.mp4
             map*.txt
 
