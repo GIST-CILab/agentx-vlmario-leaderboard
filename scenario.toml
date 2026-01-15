@@ -4,8 +4,8 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO", USE_OPEN_ROUTE
 
 [[participants]]
 name = "agent"
-agentbeats_id = "your_agentbeats_id_here"
-env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", "MODEL" = "gemini-2.5-pro" }
+agentbeats_id = "019bc0b8-d7c9-7601-b6e8-b617c81e17f6"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", "MODEL" = "gemini-2.0-flash" }
 
 [config]
 jar_output_dir = "/app/outputs"
