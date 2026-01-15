@@ -11,4 +11,4 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", "MODEL" = "gemini-2.5-pro" }
 jar_output_dir = "/app/outputs"
 # Add your assessment config here
 num_maps = 25
-top_k = 5
+top_k = 5 
