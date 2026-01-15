@@ -1,0 +1,58 @@
+{
+  "participants": {
+    "agent": "019bc21a-bafb-7122-8667-64ae736ed544"
+  },
+  "results": [
+    {
+      "domain": "mario",
+      "eval_temperature": 0.0,
+      "created_at": "2026-01-15T15:07:59.506519+00:00",
+      "map_count": 1,
+      "k": 1,
+      "score": 1.0,
+      "max_score": 20.0,
+      "task_rewards": {
+        "composition": 1.0,
+        "probability": 1.0,
+        "completeness": 1.0,
+        "aesthetics": 1.0,
+        "originality": 1.0,
+        "fairness": 1.0,
+        "fun": 1.0,
+        "difficulty": 7.0
+      },
+      "history": [
+        {
+          "domain": "mario",
+          "created_at": "2026-01-15T15:07:59.484540+00:00",
+          "score": 1.0,
+          "max_score": 20.0,
+          "task_rewards": {
+            "composition": 1,
+            "composition_reason": "The map is critically incomplete, missing every essential component of a Super Mario Bros. level except for a player spawn point. There are no platforms, ground, enemies, blocks, or a goal flag.",
+            "probability": 1,
+            "probability_reason": "The level violates the most basic logical constraint of the game by spawning the player in mid-air without any supporting platform, which is an impossible starting condition in the original Super Mario Bros.",
+            "completeness": 1,
+            "completeness_reason": "There are no interactive elements in the map. Since the player cannot perform any action other than falling, there are no opportunities for strategic decision-making.",
+            "aesthetics": 1,
+            "aesthetics_reason": "The map consists of a blank blue screen with no structures or elements. It is visually empty and lacks any aesthetic design or theme.",
+            "originality": 1,
+            "originality_reason": "While an empty, unplayable map is not a common design, it does not demonstrate any creative or structural ideas. It is an absence of design rather than an original concept.",
+            "fairness": 1,
+            "fairness_reason": "The map is fundamentally unfair as it places the player in an inescapable death loop from the start. There is no possibility of survival or gameplay.",
+            "fun": 1,
+            "fun_reason": "The level offers no gameplay and is impossible to play. The only experience is watching Mario fall repeatedly, which is not enjoyable.",
+            "difficulty": 7,
+            "difficulty_reason": "The map is impossible to clear, representing the highest level of difficulty. The player cannot survive for even a single second."
+          },
+          "time_used": 0.0,
+          "role": "agent",
+          "map_index": 1,
+          "map": "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+          "video_base64": null,
+          "explain": "This map is an empty and unplayable stage. The player spawns in mid-air with no ground, platforms, or any other objects below, leading to an immediate and unavoidable death. The level lacks all fundamental components, including a starting area, obstacles, enemies, items, and a goal."
+        }
+      ]
+    }
+  ]
+}
