@@ -3,8 +3,8 @@ agentbeats_id = "019b7d0e-2674-79f0-80ab-d2af5c870794"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", LOG_LEVEL = "INFO", USE_OPEN_ROUTER="TRUE", OPEN_ROUTER_API_KEY="${OPEN_ROUTER_API_KEY}", TEMPERATURE="0.0" }
 
 [[participants]]
-agentbeats_id = "your_agentbeats_id_here"
 name = "agent"
+agentbeats_id = "your_agentbeats_id_here"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}", "MODEL" = "gemini-2.5-pro" }
 
 [config]
