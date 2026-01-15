@@ -1,0 +1,58 @@
+{
+  "participants": {
+    "agent": "019bc21a-bafb-7122-8667-64ae736ed544"
+  },
+  "results": [
+    {
+      "domain": "mario",
+      "eval_temperature": 0.0,
+      "created_at": "2026-01-15T15:07:19.932167+00:00",
+      "map_count": 1,
+      "k": 1,
+      "score": 1.0,
+      "max_score": 20.0,
+      "task_rewards": {
+        "composition": 1.0,
+        "probability": 1.0,
+        "completeness": 1.0,
+        "aesthetics": 1.0,
+        "originality": 1.0,
+        "fairness": 1.0,
+        "fun": 1.0,
+        "difficulty": 7.0
+      },
+      "history": [
+        {
+          "domain": "mario",
+          "created_at": "2026-01-15T15:07:19.909653+00:00",
+          "score": 1.0,
+          "max_score": 20.0,
+          "task_rewards": {
+            "composition": 1,
+            "composition_reason": "The map lacks all essential components of a Super Mario Bros. level, including a starting platform, ground, blocks, enemies, and a goal. It is fundamentally incomplete and non-functional.",
+            "probability": 1,
+            "probability_reason": "The placement of the starting point in mid-air without any supporting structure is not a logical or valid configuration within the rules of Super Mario Bros., making the level's premise physically impossible.",
+            "completeness": 1,
+            "completeness_reason": "There are no interactive elements in the map. The player cannot make any decisions, as the outcome is predetermined and instant. There is a complete absence of strategic depth.",
+            "aesthetics": 1,
+            "aesthetics_reason": "The level is visually barren, showing only an empty blue sky. It lacks any structures, objects, or design elements, resulting in no aesthetic appeal whatsoever.",
+            "originality": 1,
+            "originality_reason": "While an empty, impossible level is unconventional, it demonstrates an absence of design rather than a creative or original idea. It contains no unique structures or concepts.",
+            "fairness": 1,
+            "fairness_reason": "The level is the epitome of unfairness. It places the player in an unwinnable situation from the start, with no possibility of survival. Death is instant and unavoidable.",
+            "fun": 1,
+            "fun_reason": "The map offers no gameplay experience and is impossible to interact with. It is inherently frustrating and provides zero enjoyment, as the only possible action is to fall and die.",
+            "difficulty": 7,
+            "difficulty_reason": "The level is impossible to clear, which represents the highest conceivable difficulty. This is not due to a well-designed challenge but to a fundamentally broken and unplayable design."
+          },
+          "time_used": 0.0,
+          "role": "agent",
+          "map_index": 1,
+          "map": "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+          "video_base64": null,
+          "explain": "This map is completely empty, consisting only of a sky background. The player spawns in mid-air with no platforms or ground beneath, resulting in an immediate and unavoidable fall that leads to death. The level is unplayable and impossible to clear."
+        }
+      ]
+    }
+  ]
+}
