@@ -1,0 +1,57 @@
+{
+  "participants": {
+    "agent": "019ba22d-08a2-7c90-84a9-026bc953a53f"
+  },
+  "results": [
+    {
+      "domain": "mario",
+      "created_at": "2026-01-15T04:08:25.585123+00:00",
+      "map_count": 1,
+      "k": 1,
+      "score": 2.0,
+      "max_score": 20.0,
+      "task_rewards": {
+        "composition": 2.0,
+        "probability": 2.0,
+        "completeness": 2.0,
+        "aesthetics": 1.0,
+        "originality": 2.0,
+        "fairness": 1.0,
+        "fun": 1.0,
+        "difficulty": 7.0
+      },
+      "history": [
+        {
+          "domain": "mario",
+          "created_at": "2026-01-15T04:08:25.563159+00:00",
+          "score": 2.0,
+          "max_score": 20.0,
+          "task_rewards": {
+            "composition": 2,
+            "composition_reason": "The map includes a starting point, platforms, and enemies, but it lacks critical components like a visible goal (flagpole) and any form of power-ups or coins. This makes the level feel fundamentally incomplete as a Super Mario Bros. stage.",
+            "probability": 2,
+            "probability_reason": "The level consists of extremely tall, thin, and unsupported brick pillars and pipes used as standalone platforms. This kind of vertical, floating architecture is not characteristic of the original game's world-building logic, making the structures feel highly improbable.",
+            "completeness": 2,
+            "completeness_reason": "While the precise jumps required demand careful execution, the level offers very little strategic depth. The absence of power-ups, alternative paths, or varied enemies reduces decision-making to simple jump timing, making the gameplay experience one-dimensional.",
+            "aesthetics": 1,
+            "aesthetics_reason": "The map is a visually jarring collection of tall, repetitive vertical structures with no thematic consistency or artistic arrangement. The layout appears chaotic and lacks any sense of visual balance or appeal.",
+            "originality": 2,
+            "originality_reason": "The level's design relies on the common trope of creating difficulty through a series of disconnected platforms and precise jumps over bottomless pits. It lacks any genuinely novel mechanics or creative structural concepts, feeling derivative of other 'hard for the sake of hard' custom levels.",
+            "fairness": 1,
+            "fairness_reason": "The level is fundamentally unfair. It features enemies falling from off-screen without warning, jumps that require pixel-perfect precision with no room for error, and an extremely restrictive 60-second timer that punishes the necessary trial-and-error gameplay.",
+            "fun": 1,
+            "fun_reason": "The map's reliance on unfair mechanics, punishing difficulty, and repetitive trial-and-error gameplay would likely create a frustrating and unenjoyable experience. There is no sense of rewarding progression, only constant failure.",
+            "difficulty": 7,
+            "difficulty_reason": "The combination of pixel-perfect jumps, unforgiving enemy placements, large bottomless pits, and a severe time constraint makes the level exceptionally difficult, bordering on impossible for an average player."
+          },
+          "time_used": 0.0,
+          "role": "agent",
+          "map_index": 1,
+          "map": "----S-----------------------------------------------E-----<>------------------------XX--------S----------------------------------------------------------------------X-Q----------------------------------\n-----------------------------------------X----------------[]X---------XX------X-----XX------------------------------S-<>------E--------S-----------------------------X------------------------------------\n-------E----------X----------------------X---------------XXXX--X------XX------X-----XX----------------X---------------[]---------------------------------------------X---------------------<>-------------\n------------------X-----X----------------X--E------------XXXX--XX-----XX------X-----XX----------------X---------------[]------X--------------------------------------X---------------------[]-------------\n------------------X---X-X----------X--E--X-----------S---XXXX--XX-----XX--S---X----XXX------------S---X---X-----------[]-X----X---X--X-------------------------------X---------------------[]-------------\n------------X-<>--X---X-X----------X-----X-----X---------XXXX--XX-----XX------X-X--XXX-<>-------------X---X-----------[]-X----X---X--X-------------------------------X---------------------[]-------------\n----------X-X-[]--X---X-X----------X-----XX----X---------XXXX--XX-----XX------XXX--XXX-[]-------------X---X-----------[]-XX---XX--XXXX-----E-----S-----------X-------X----------?----------[]-------------\n-------<>-X-X-[]-XX---X-X----------X---E-XX----X--------XXXXX--XXX----XX------XXX--XXX-[]-------------X---X----S------[]-XX---XX--XXXX----------------X------X-------X-------------X--E----[]-------------\n-------[]-X-XXXXXXX---XXX----------X-----XX----X----<>--XXXXX--XXX----XX-----XXXXX-XXX-[]-------------X---X-----------[]-XX---XX--XXXX----------------X------X-------X-------------X-------[]-XX----------\n----X--[]-X-XXXXXXX--XXXXXX--------X-----XX---XX----[]--XXXXX--XXX----XX-----XXXXX-XXX-[]-------------X---X-----------[]-XX---XX--XXXX----------------X------X-------X------------XX-------[]-XXX--X------\n----X--[]-X-XXXXXXX--XXXXXX----X---X-----XX---XX-E--[]--XXXXX--XXX----XXX--X-XXXXX-XXX-[]--------Q----XX--X-----------[]-XX---XX--XXXX---------------XX-X----X-------X--X---------XX---X---[]-XXX--X------\n----X--[]-X-XXXXXXX--XXXXXX----X---X-----XX---XX----[]--XXXXX--XXX----XXXXXXXXXXXX-XXX-[]-------------XX--X---------X-[]-XX---XX--XXXX---------------XX-X-X--X-------X--X---------XX---X--XXXXXXX--X------\n----X--[]-X-XXXXXXX--XXXXXXX---X---X-----XX---XX----[]-XXXXXX--XXX----XXXXXXXXXXXXXXXX-[]-------------XX--X---------XXXXXXX---XX--XXXX---------------XX-X-X--X-------X--X---------XX---X--XXXXXXXX-X-----E\n----X--[]-X-XXXXXXX--XXXXXXX---X---X-----XX---XX--XXXXXXXXXXX--XXX---XXXXXXXXXXXXXXXXX-[]----X--------XX--X-X-------XXXXXXX---XX--XXXX----X-------X--XX-X-X--XXX-----X--X---------XXX--X--XXXXXXXXXX------",
+          "video_base64": null,
+          "explain": "This map is a vertical, platforming-focused level composed of tall, disconnected structures like pipes and brick pillars. The player must execute a series of precise and difficult jumps over large gaps. Goombas are placed in challenging positions, sometimes falling from above, to disrupt the player's jumps. The level has an extremely short time limit and appears to be an intentionally difficult challenge focused on execution rather than exploration or strategy."
+        }
+      ]
+    }
+  ]
+}
